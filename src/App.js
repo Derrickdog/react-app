@@ -5,6 +5,7 @@ import Welcome from './components/Welcome'
 import MyComponent from './components/MyComponent';
 import Message from './components/Message';
 import Counter from './components/Counter'
+import Clock from './components/Clock'
 // import { Component } from 'react';
 
 function App() {
@@ -20,9 +21,10 @@ function App() {
       <br />
       <Welcome name="Awesome" heroName="Captain"></Welcome>
       <Welcome name="Lit" heroName="Scott"></Welcome> */}
-      <Message />
+      {/* <Message />
       <br />
-      <Counter />
+      <Counter /> */}
+      <Clock />
     </div>
   );
 }

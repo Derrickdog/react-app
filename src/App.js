@@ -11,21 +11,22 @@ import Clock from './components/Clock'
 function App() {
   return (
     <div className="App">
-      {/* <Greet name="Bruce" heroName="Batman">
-        <p>This is children props</p>
-      </Greet>
-      <Greet name="Peter" heroName="Spiderman">
-        <button>Action</button>
-      </Greet>
-      <Greet name="Derrick" heroName="Superman"/>
-      <br />
-      <Welcome name="Awesome" heroName="Captain"></Welcome>
-      <Welcome name="Lit" heroName="Scott"></Welcome> */}
-      {/* <Message />
-      <br />
-      <Counter /> */}
       <Clock />
+      <Message />
+      <Counter />
     </div>
+    // <div className="App">
+    //   <Greet name="Bruce" heroName="Batman">
+    //     <p>This is children props</p>
+    //   </Greet>
+    //   <Greet name="Peter" heroName="Spiderman">
+    //     <button>Action</button>
+    //   </Greet>
+    //   <Greet name="Derrick" heroName="Superman"/>
+    //   <br />
+    //   <Welcome name="Awesome" heroName="Captain"></Welcome>
+    //   <Welcome name="Lit" heroName="Scott"></Welcome>
+    // </div>
   );
 }
 

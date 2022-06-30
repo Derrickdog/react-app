@@ -1,12 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet'
-import Welcome from './components/Welcome'
-import MyComponent from './components/MyComponent';
+// import Greet from './components/Greet'
+// import Welcome from './components/Welcome'
+// import MyComponent from './components/MyComponent';
 import Message from './components/Message';
 import Counter from './components/Counter'
 import Clock from './components/Clock'
 import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 // import { Component } from 'react';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Counter />
       <br />
       <FunctionClick />
+      <ClassClick />
     </div>
     // <div className="App">
     //   <Greet name="Bruce" heroName="Batman">

@@ -1,9 +1,9 @@
 import React from 'react'
 
 function FunctionClick() {
-    
+
     function clickHandler() {
-        console.log('Button Clicked');
+        console.log('Button Clicked (Functional Component)');
     }
 
   return (

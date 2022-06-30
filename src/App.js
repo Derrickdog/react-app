@@ -17,6 +17,7 @@ function App() {
       <Message />
       <Counter />
       <br />
+      <h2>Event Handlers</h2>
       <FunctionClick />
       <ClassClick />
     </div>

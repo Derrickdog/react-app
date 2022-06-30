@@ -6,6 +6,7 @@ import MyComponent from './components/MyComponent';
 import Message from './components/Message';
 import Counter from './components/Counter'
 import Clock from './components/Clock'
+import FunctionClick from './components/FunctionClick';
 // import { Component } from 'react';
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <Clock />
       <Message />
       <Counter />
+      <br />
+      <FunctionClick />
     </div>
     // <div className="App">
     //   <Greet name="Bruce" heroName="Batman">

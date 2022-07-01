@@ -10,7 +10,8 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
-import UserGreeting from './components/UserGreeting';
+// import UserGreeting from './components/UserGreeting';
+// import NameList from './components/NameList';
 // import { Component } from 'react';
 
 function App() {
@@ -28,8 +29,9 @@ function App() {
       <br />
       <div>Methods as Props</div>
       <ParentComponent />
-      <br />
+      {/* <br />
       <UserGreeting />
+      <NameList /> */}
     </div>
     // <div className="App">
     //   <Greet name="Bruce" heroName="Batman">

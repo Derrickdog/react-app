@@ -23,6 +23,7 @@ class UserGreeting extends Component {
         <div>Welcome Derrick</div> :
         <div>Welcome Visitor</div>
     )
+    // return this.state.isLoggedIn && <div>Welcome Derrick</div>
   }
 }
 

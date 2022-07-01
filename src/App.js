@@ -9,6 +9,7 @@ import Clock from './components/Clock'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 // import { Component } from 'react';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
       <ClassClick />
       <br />
       <EventBind />
+      <br />
+      <div>Methods as Props</div>
+      <ParentComponent />
     </div>
     // <div className="App">
     //   <Greet name="Bruce" heroName="Batman">

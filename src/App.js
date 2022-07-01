@@ -8,6 +8,7 @@ import Counter from './components/Counter'
 import Clock from './components/Clock'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 // import { Component } from 'react';
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <h2>Event Handlers</h2>
       <FunctionClick />
       <ClassClick />
+      <br />
+      <EventBind />
     </div>
     // <div className="App">
     //   <Greet name="Bruce" heroName="Batman">
